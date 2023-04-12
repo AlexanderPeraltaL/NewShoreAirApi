@@ -9,7 +9,7 @@ namespace Data
                                FROM TRANSPORT WHERE FLIGHT_NUMBER = @FLIGHT_NUMBER";
 
         private readonly Transport transport;
-        private readonly Transport transportResult;
+        private Transport transportResult;
 
         public TransportGetByFlightNumber(Transport transport)
         {

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Busine
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{F80E42FB-3C3E-48E9-B735-57A81D3A0087}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessTests", "BusinessTests\BusinessTests.csproj", "{AC25BE5B-B147-4B5B-A655-21B4363A856A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F80E42FB-3C3E-48E9-B735-57A81D3A0087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F80E42FB-3C3E-48E9-B735-57A81D3A0087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F80E42FB-3C3E-48E9-B735-57A81D3A0087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC25BE5B-B147-4B5B-A655-21B4363A856A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC25BE5B-B147-4B5B-A655-21B4363A856A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC25BE5B-B147-4B5B-A655-21B4363A856A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC25BE5B-B147-4B5B-A655-21B4363A856A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

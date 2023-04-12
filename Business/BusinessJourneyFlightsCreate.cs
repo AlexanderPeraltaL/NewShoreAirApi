@@ -14,7 +14,10 @@ namespace Business
             this.journeys = journeys;
             flightResult = new Flight();
         }
-
+        /// <summary>
+        /// Guardamos la informacion ya obtenida del API en base de datos, de forma que tengamos permancencia
+        /// de datos en nuestro sistema 
+        /// <summary>
         public void Process()
         {
 

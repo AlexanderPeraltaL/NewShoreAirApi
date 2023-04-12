@@ -16,6 +16,12 @@ namespace Business
             journeyResultSql = new Journey();
         }
 
+
+        /// <summary>
+        /// Esta es una de las clases principales del proyecto, ya que se encarga de validar la solicitud
+        /// procede a validar si existe el calculo ya en base de datos, de no se asi valida la API 
+        /// y procede a guardar este calculo en BD y posteriormente entrega la respuesta de la ruta
+        /// <summary>
         public Journey Process()
         {
 

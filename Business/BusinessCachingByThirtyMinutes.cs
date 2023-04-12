@@ -7,8 +7,12 @@ namespace Business
     {
         private static readonly MemoryCache Cache = MemoryCache.Default;
         const string cacheKey = "flights";
+        /// <summary>
+        ///Guarda el response de la API externa por 30 minutos
+        /// <summary>
         public static List<Flight>? Flights()
         {
+
             try
             {
                 const string cacheKey = "flights";
